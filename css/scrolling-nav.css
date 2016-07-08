@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    color: rgba(175, 175, 175, 0.99);
+}
+
+strong{
+  color: rgba(160, 160, 160, 0.99)
+}
+
+h1{
+  color: rgba(220, 220, 220, 0.99);
+}
+h2{
+  color: rgba(220, 220, 220, 0.99);
+}
+h3{
+  color: rgba(220, 220, 220, 0.99);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        padding-left: 200px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background: #fff
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: rgba(75, 75, 75, 0.75);
+    opacity: 0.8;
+
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: rgba(100, 100, 100, 0.9);
+
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: rgba(75, 75, 75, 0.9)
+
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7)
+}
+
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
